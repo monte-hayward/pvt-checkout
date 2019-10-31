@@ -1,0 +1,24 @@
+fieldset {
+    display: flex;
+    border: medium none;
+}
+
+label {
+    width: 100%;
+    display: inline-flex;
+    flex-direction: row;
+    font-size: 12px;
+    font-weight: bold;
+    margin-right: 16px;
+    text-transform: capitalize;
+}
+input {
+    display: inline-flex;
+    flex: 0 1 auto;
+    margin-bottom: 9px;
+    height: 40px;
+    border-radius: 0;
+    font-size: 14px;
+    background-color: #ffffff;
+    width: 614px;
+}

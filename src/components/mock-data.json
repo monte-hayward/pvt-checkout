@@ -1,0 +1,70 @@
+{
+  "totalAmount": {
+    "amount": "37.00",
+    "currency": "USD"
+  },
+  "consumer": {
+    "phoneNumber": "2120000000",
+    "givenNames": "Joe",
+    "surname": "Consumer",
+    "email": "test@afterpay.com"
+  },
+  "billing": {
+    "name": "Joe Consumer",
+    "line1": "",
+    "state": "",
+    "postcode": "",
+    "countryCode": "",
+    "phoneNumber": ""
+  },
+  "shipping": {
+    "name": "Joe Consumer",
+    "line1": "",
+    "state": "",
+    "postcode": "",
+    "countryCode": "",
+    "phoneNumber": ""
+  },
+  "items": [
+    {
+      "name": "T-Shirt",
+      "sku": "12341234",
+      "quantity": 1,
+      "price": {
+        "amount": "10.00",
+        "currency": "USD"
+      }
+    },
+    {
+      "name": "Jeans",
+      "sku": "12341235",
+      "quantity": 1,
+      "price": {
+        "amount": "20.00",
+        "currency": "USD"
+      }
+    }
+  ],
+  "discounts": [
+    {
+      "displayName": "10% Off Subtotal",
+      "amount": {
+        "amount": "3.00",
+        "currency": "USD"
+      }
+    }
+  ],
+  "merchant": {
+    "redirectConfirmUrl": "https://www.merchant.com/confirm",
+    "redirectCancelUrl": "https://www.merchant.com/cancel"
+  },
+  "merchantReference": "merchantOrder-1234",
+  "taxAmount": {
+    "amount": "0.00",
+    "currency": "USD"
+  },
+  "shippingAmount": {
+    "amount": "10.00",
+    "currency": "USD"
+  }
+}
