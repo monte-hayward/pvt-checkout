@@ -8,6 +8,7 @@ class Shop extends React.PureComponent {
     this.state = { checkoutOpen: false };
 
   }
+
   // handleClick() {
   //   this.setState({ checkoutOpen: !!this.state.checkoutOpen });
   // }
@@ -15,8 +16,11 @@ class Shop extends React.PureComponent {
 
     return (
       <div>
-
-        <Start handleClick={() => {this.setState({checkoutOpen: true})}} />
+        {this.state.checkoutOpen !== true &&
+          <Start handleClick={() => {
+            this.setState({ checkoutOpen: true })
+          }}/>
+        }
         <p>{this.state.checkoutOpen}</p>
         {this.state.checkoutOpen === true &&
         <Checkout/>
